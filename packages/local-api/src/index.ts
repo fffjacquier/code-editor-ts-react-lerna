@@ -21,14 +21,11 @@ export const serve = (port: number, filename: string, dir: string, useProxy: boo
       })
     )
   } else {
-    // app.use(express.static('../../local-client/build'))
     // we use lerna to create the link local-client/build and local-api
-
-    // but symbolic liink not recognized by express static
-    // app.use(express.static('../node_modules/local-client/build'))
+    // but symbolic link not recognized by express static
 
     // resolve path to absolute
-    const localPackagePath = require.resolve('local-client/build/index.html')
+    const localPackagePath = require.resolve('@myjsnotebook/local-client/build/index.html')
     app.use(express.static(path.dirname(localPackagePath)))
   }
 
