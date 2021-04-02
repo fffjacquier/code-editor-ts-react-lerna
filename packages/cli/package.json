@@ -1,6 +1,6 @@
 {
   "name": "myjsnotebook",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "files": [
     "dist"
@@ -17,7 +17,7 @@
     "@myjsnotebook/local-client": "^1.0.0"
   },
   "devDependencies": {
-    "@myjsnotebook/local-api": "^1.0.0",
+    "@myjsnotebook/local-api": "^1.0.2",
     "@types/node": "^14.14.37",
     "commander": "^7.2.0",
     "esbuild": "0.8.26",
