@@ -160,3 +160,9 @@ and use:: "name": "@myjsnotebook/local-api" model for others packages
 this implies renamings the imports
 
 then run : lerna bootstrap
+
+then prepare each package as for tiny-npm-deploy test done before
+
+then lerna publish --no-push
+
+then npm publish
