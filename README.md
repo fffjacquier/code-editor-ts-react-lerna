@@ -1,4 +1,8 @@
-# A jbook-like code editor built with typescript and react
+# A jupyter-notebook-like code editor, built with typescript and react
+
+![alt text](http://fjacquier.free.fr/myjsnotebook.jpg 'My js notebook')
+
+## My Loosy messy notes from the project
 
 we need a transpiler to execute jsx code in browser
 and some Bundling tool
@@ -8,8 +12,6 @@ code -> run webpack -> find imports -> fetch files from npm -> complete bundle -
 Solution: Using ESBuild for transpiler and bundler
 [Esbuild](https://esbuild.github.io)
 & Using unpkg.com to get files
-
-## Notes from the project
 
 run our jbook app on localhost:3000
 User write code in a n editor
